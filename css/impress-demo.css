@@ -104,11 +104,12 @@ i, em { font-style: italic }
     ... and give links a nice look.
 */
 a {
+    font-size: 0.5em;
     color: inherit;
     text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+
     border-radius: 0.2em;
 
     -webkit-transition: 0.1s;
@@ -121,7 +122,7 @@ a {
 a:hover,
 a:focus {
     background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+    
 }
 
 /*
@@ -208,57 +209,13 @@ a:focus {
   font-size: 125%;
 }
 
-/*
-    These 'slide' step styles were heavily inspired by HTML5 Slides:
-    http://html5slides.googlecode.com/svn/trunk/styles.css
-
-    ;)
-
-    They cover everything what you see on first three steps of the demo.
-*/
-.slide {
-    display: block;
-
-    width: 900px;
-    height: 700px;
-    padding: 40px 60px;
-
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-
-    color: rgb(102, 102, 102);
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: -1px;
+.bird-eye {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background-color: transparent;
+  font-size: 2em;
 }
-
-.slide q {
-    display: block;
-    font-size: 50px;
-    line-height: 72px;
-
-    margin-top: 100px;
-}
-
-.slide q strong {
-    white-space: nowrap;
-}
-
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
 
 #title,
 #who,
@@ -293,7 +250,15 @@ a:focus {
     transform:         translateZ(50px);
 }
 
+#who-2,
+#who-3,
+#who-4,
+#info,
 #why-2 { text-align: center; }
+
+#info hr { width: 3em; }
+
+#refs a {}
 
 #title .footnote {
     font-size: 32px;
