@@ -293,6 +293,8 @@ a:focus {
     transform:         translateZ(50px);
 }
 
+#why-2 { text-align: center; }
+
 #title .footnote {
     font-size: 32px;
 }
