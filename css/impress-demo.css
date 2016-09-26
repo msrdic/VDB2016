@@ -238,7 +238,8 @@ a:focus {
 #title h1,
 #who h1,
 #what h1,
-#why h1 {
+#why h1,
+#how h1 {
     font-size: 190px;
 
     -webkit-transform: translateZ(50px);
