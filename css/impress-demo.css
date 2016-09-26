@@ -254,7 +254,9 @@ a:focus {
 #info,
 #what-2,
 #what-3,
-#why-2 { text-align: center; }
+#what-4,
+#why-2,
+#why-4 { text-align: center; }
 
 #info hr { width: 3em; }
 
@@ -263,6 +265,8 @@ a:focus {
 #title .footnote {
     font-size: 32px;
 }
+
+.exp { color: green; }
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
