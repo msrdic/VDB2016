@@ -208,7 +208,7 @@
 
         perspective: 1000,
 
-        transitionDuration: 100
+        transitionDuration: 1000
     };
 
     // It's just an empty function ... and a useless comment.
@@ -741,12 +741,14 @@
                     case 38: // Up
                              api.prev();
                              break;
-                    case 9:  // Tab
                     case 32: // Space
                     case 34: // Page down
                     case 39: // Right
                     case 40: // Down
                              api.next();
+                             break;
+                    case 9:  // Tab
+                             api.goto(document.getElementById("overview"));
                              break;
                 }
 
