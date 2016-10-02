@@ -295,9 +295,11 @@ a:focus {
 #evolution-2013-4 > img { width: 100%; height: 100%; }
 
 #intermission,
-#intermission-2 { padding:0; margin:0; width: 1180px;}
+#intermission-2,
+#shipit { padding:0; margin:0; width: 1180px;}
 #intermission > img,
-#intermission-2 > img { width: 100%; height: 100%; }
+#intermission-2 > img,
+#shipit > img { width: 100%; height: 100%; }
 
 #info hr,
 #evolution-2014-5 hr { width: 3em; }
